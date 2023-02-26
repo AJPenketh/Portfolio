@@ -9,4 +9,41 @@
     <header>
         <h1>How to contact me</h1>
     </header>
+
+    <section>
+        <h2>Contact me!</h2>
+        <p>Thank you for viewing my page and reviewing my projects. If you would like to get in touch please fill out the form below.</p>
+        <form>
+            <fieldset>
+                <legend>Personal Details:</legend>
+                <label>
+                    Name:
+                    <input type="text" name="name">
+                </label>
+                <label>
+                    Email:
+                    <input type="email" name="email">
+                </label>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Get in contact:</legend>
+                <label>
+                    Reason for contact:
+                </label>
+                <select name="Reason">
+                        <option selected disabled hidden style='display: none' value=""></option>
+                        <option value="Employment">Employment</option>
+                        <option value="Freelance">Freelance</option>
+                        <option value="Other">Other</option>
+                    </label>
+                </select>
+                <br>
+                <label for="message">Leave a message:</label>
+                <br>
+                <textarea id="message" name="comments" placeholder="Write your message here"></textarea>
+            </fieldset>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+    </section>
 </body>
